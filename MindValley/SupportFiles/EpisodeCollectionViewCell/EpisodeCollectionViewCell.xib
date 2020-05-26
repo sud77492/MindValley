@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Bold.ttf">
+            <string>Gilroy-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EpisodeCollectionViewCell" id="gTV-IL-0wX" customClass="EpisodeCollectionViewCell" customModule="MindValley" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="174" height="326"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="174" height="326"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="msF-xa-ibJ">
+                        <rect key="frame" x="11" y="0.0" width="152" height="228"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="152" id="YvD-Jl-gpv"/>
+                            <constraint firstAttribute="height" constant="228" id="dfh-yV-Rnw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINDVALLEY MENTORING" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3j-Ru-l8P">
+                        <rect key="frame" x="10" y="284.5" width="154" height="30.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.58431372549019611" green="0.59607843137254901" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Cure of Lonliness" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhI-8C-i5l">
+                        <rect key="frame" x="8" y="238" width="158" height="34.5"/>
+                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="msF-xa-ibJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1es-ln-zyC"/>
+                <constraint firstItem="L3j-Ru-l8P" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="51i-ck-8cs"/>
+                <constraint firstItem="hhI-8C-i5l" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="69L-uR-tiu"/>
+                <constraint firstAttribute="trailing" secondItem="hhI-8C-i5l" secondAttribute="trailing" constant="8" id="A3K-RX-Blp"/>
+                <constraint firstItem="hhI-8C-i5l" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="GEW-zN-vvO"/>
+                <constraint firstItem="L3j-Ru-l8P" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Jyo-mH-hAI"/>
+                <constraint firstItem="L3j-Ru-l8P" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="O51-az-NYg"/>
+                <constraint firstItem="hhI-8C-i5l" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Xi3-ub-oEi"/>
+                <constraint firstItem="msF-xa-ibJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="dWs-fc-6qS"/>
+                <constraint firstAttribute="trailing" secondItem="msF-xa-ibJ" secondAttribute="trailing" constant="11" id="fI1-7e-naR"/>
+                <constraint firstItem="L3j-Ru-l8P" firstAttribute="top" secondItem="hhI-8C-i5l" secondAttribute="bottom" constant="12" id="kXJ-VY-xYb"/>
+                <constraint firstAttribute="trailing" secondItem="L3j-Ru-l8P" secondAttribute="trailing" constant="10" id="qCQ-D1-tNz"/>
+                <constraint firstItem="msF-xa-ibJ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="qi5-V5-WX9"/>
+                <constraint firstItem="hhI-8C-i5l" firstAttribute="top" secondItem="msF-xa-ibJ" secondAttribute="bottom" constant="10" id="zNU-Sj-JfB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="222" height="306"/>
+            <connections>
+                <outlet property="channelTitle" destination="L3j-Ru-l8P" id="ZXJ-hm-KXf"/>
+                <outlet property="episodeImage" destination="msF-xa-ibJ" id="fbP-gf-M3y"/>
+                <outlet property="episodeTitle" destination="hhI-8C-i5l" id="80f-xr-Tm3"/>
+            </connections>
+            <point key="canvasLocation" x="-1.4492753623188408" y="66.294642857142861"/>
+        </collectionViewCell>
+    </objects>
+</document>

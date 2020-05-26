@@ -3,19 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35397DF1AA25CEBD32E5493E /* Pods_MindValleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1D761039A91FBE16C2CCE6 /* Pods_MindValleyTests.framework */; };
 		44DA9663247D2C5A0040877B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9662247D2C5A0040877B /* AppDelegate.swift */; };
 		44DA9665247D2C5A0040877B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9664247D2C5A0040877B /* SceneDelegate.swift */; };
-		44DA9667247D2C5A0040877B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9666247D2C5A0040877B /* ViewController.swift */; };
-		44DA966A247D2C5A0040877B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA9668247D2C5A0040877B /* Main.storyboard */; };
 		44DA966D247D2C5A0040877B /* MindValley.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44DA966B247D2C5A0040877B /* MindValley.xcdatamodeld */; };
-		44DA966F247D2C5B0040877B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA966E247D2C5B0040877B /* Assets.xcassets */; };
-		44DA9672247D2C5B0040877B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA9670247D2C5B0040877B /* LaunchScreen.storyboard */; };
 		44DA967D247D2C5C0040877B /* MindValleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA967C247D2C5C0040877B /* MindValleyTests.swift */; };
 		44DA9688247D2C5C0040877B /* MindValleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9687247D2C5C0040877B /* MindValleyUITests.swift */; };
+		44DA969B247D2E310040877B /* ReactiveExtensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9697247D2E310040877B /* ReactiveExtensiones.swift */; };
+		44DA969C247D2E310040877B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9698247D2E310040877B /* UIViewExtension.swift */; };
+		44DA969D247D2E310040877B /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA9699247D2E310040877B /* UIImageView+Load.swift */; };
+		44DA969E247D2E310040877B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA969A247D2E310040877B /* Network.swift */; };
+		44DA96B9247D2E3C0040877B /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96A1247D2E3C0040877B /* MessageView.xib */; };
+		44DA96BA247D2E3C0040877B /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96A2247D2E3C0040877B /* MessageView.swift */; };
+		44DA96BB247D2E3C0040877B /* AnimateloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96A4247D2E3C0040877B /* AnimateloadingView.swift */; };
+		44DA96BC247D2E3C0040877B /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96A5247D2E3C0040877B /* LoadingView.xib */; };
+		44DA96BD247D2E3C0040877B /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96A6247D2E3C0040877B /* LoadingViewable.swift */; };
+		44DA96BE247D2E3C0040877B /* loadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96A7247D2E3C0040877B /* loadingView.swift */; };
+		44DA96BF247D2E3C0040877B /* EpisodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96A9247D2E3C0040877B /* EpisodeCollectionViewCell.xib */; };
+		44DA96C0247D2E3C0040877B /* EpisodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96AA247D2E3C0040877B /* EpisodeCollectionViewCell.swift */; };
+		44DA96C1247D2E3C0040877B /* ChannelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96AC247D2E3C0040877B /* ChannelCollectionViewCell.xib */; };
+		44DA96C2247D2E3C0040877B /* ChannelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96AD247D2E3C0040877B /* ChannelCollectionViewCell.swift */; };
+		44DA96C3247D2E3C0040877B /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96B0247D2E3C0040877B /* ChannelTableViewCell.swift */; };
+		44DA96C4247D2E3C0040877B /* SeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96B2247D2E3C0040877B /* SeriesCollectionViewCell.swift */; };
+		44DA96C5247D2E3C0040877B /* SeriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96B3247D2E3C0040877B /* SeriesCollectionViewCell.xib */; };
+		44DA96C6247D2E3C0040877B /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96B5247D2E3C0040877B /* CategoryCollectionViewCell.swift */; };
+		44DA96DE247D2EB60040877B /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96C9247D2EB50040877B /* ChannelViewModel.swift */; };
+		44DA96DF247D2EB60040877B /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96CA247D2EB50040877B /* CategoryViewModel.swift */; };
+		44DA96E0247D2EB60040877B /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96CB247D2EB50040877B /* EpisodeViewModel.swift */; };
+		44DA96E1247D2EB60040877B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96CD247D2EB50040877B /* Channel.swift */; };
+		44DA96E2247D2EB60040877B /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96CE247D2EB50040877B /* Episode.swift */; };
+		44DA96E3247D2EB60040877B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96CF247D2EB50040877B /* Category.swift */; };
+		44DA96E4247D2EB60040877B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96D1247D2EB50040877B /* Main.storyboard */; };
+		44DA96E5247D2EB60040877B /* EpisodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA96D3247D2EB50040877B /* EpisodeVC.swift */; };
+		44DA96E6247D2EB60040877B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96D5247D2EB50040877B /* Assets.xcassets */; };
+		44DA96E7247D2EB60040877B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96D6247D2EB50040877B /* LaunchScreen.storyboard */; };
+		44DA96E8247D2EB60040877B /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96D9247D2EB50040877B /* Gilroy-Medium.ttf */; };
+		44DA96E9247D2EB60040877B /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96DA247D2EB50040877B /* Gilroy-Regular.ttf */; };
+		44DA96EA247D2EB60040877B /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96DB247D2EB50040877B /* Gilroy-ExtraBold.ttf */; };
+		44DA96EB247D2EB60040877B /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96DC247D2EB50040877B /* Gilroy-SemiBold.ttf */; };
+		44DA96EC247D2EB60040877B /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DA96DD247D2EB50040877B /* Gilroy-Bold.ttf */; };
+		D0823E09EA945ECEA01F5FC4 /* Pods_MindValley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B963136CD52F21AA79B1AC /* Pods_MindValley.framework */; };
+		F6A8C33DCF6C7D963A3E46BF /* Pods_MindValleyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D69C8CF9D1C53CA8E294495 /* Pods_MindValleyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +68,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B963136CD52F21AA79B1AC /* Pods_MindValley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40125E2C96959B93C41D1D36 /* Pods-MindValley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValley.release.xcconfig"; path = "Target Support Files/Pods-MindValley/Pods-MindValley.release.xcconfig"; sourceTree = "<group>"; };
 		44DA965F247D2C5A0040877B /* MindValley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DA9662247D2C5A0040877B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DA9664247D2C5A0040877B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44DA9666247D2C5A0040877B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44DA9669247D2C5A0040877B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44DA966C247D2C5A0040877B /* MindValley.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MindValley.xcdatamodel; sourceTree = "<group>"; };
-		44DA966E247D2C5B0040877B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44DA9671247D2C5B0040877B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44DA9673247D2C5B0040877B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DA9678247D2C5C0040877B /* MindValleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DA967C247D2C5C0040877B /* MindValleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyTests.swift; sourceTree = "<group>"; };
@@ -51,6 +81,46 @@
 		44DA9683247D2C5C0040877B /* MindValleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DA9687247D2C5C0040877B /* MindValleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyUITests.swift; sourceTree = "<group>"; };
 		44DA9689247D2C5C0040877B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA9697247D2E310040877B /* ReactiveExtensiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveExtensiones.swift; sourceTree = "<group>"; };
+		44DA9698247D2E310040877B /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		44DA9699247D2E310040877B /* UIImageView+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
+		44DA969A247D2E310040877B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		44DA96A1247D2E3C0040877B /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		44DA96A2247D2E3C0040877B /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		44DA96A4247D2E3C0040877B /* AnimateloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateloadingView.swift; sourceTree = "<group>"; };
+		44DA96A5247D2E3C0040877B /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		44DA96A6247D2E3C0040877B /* LoadingViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
+		44DA96A7247D2E3C0040877B /* loadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
+		44DA96A9247D2E3C0040877B /* EpisodeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		44DA96AA247D2E3C0040877B /* EpisodeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCollectionViewCell.swift; sourceTree = "<group>"; };
+		44DA96AC247D2E3C0040877B /* ChannelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelCollectionViewCell.xib; sourceTree = "<group>"; };
+		44DA96AD247D2E3C0040877B /* ChannelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCollectionViewCell.swift; sourceTree = "<group>"; };
+		44DA96B0247D2E3C0040877B /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		44DA96B2247D2E3C0040877B /* SeriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		44DA96B3247D2E3C0040877B /* SeriesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		44DA96B5247D2E3C0040877B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		44DA96C9247D2EB50040877B /* ChannelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		44DA96CA247D2EB50040877B /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		44DA96CB247D2EB50040877B /* EpisodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
+		44DA96CD247D2EB50040877B /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		44DA96CE247D2EB50040877B /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		44DA96CF247D2EB50040877B /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		44DA96D2247D2EB50040877B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44DA96D3247D2EB50040877B /* EpisodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeVC.swift; sourceTree = "<group>"; };
+		44DA96D5247D2EB50040877B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DA96D7247D2EB50040877B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44DA96D9247D2EB50040877B /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		44DA96DA247D2EB50040877B /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		44DA96DB247D2EB50040877B /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		44DA96DC247D2EB50040877B /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		44DA96DD247D2EB50040877B /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		6F1D761039A91FBE16C2CCE6 /* Pods_MindValleyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DA7127D1AEEC521348AAAB /* Pods-MindValleyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyUITests.release.xcconfig"; path = "Target Support Files/Pods-MindValleyUITests/Pods-MindValleyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D69C8CF9D1C53CA8E294495 /* Pods_MindValleyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989A9390FC905C3DD0F2D90A /* Pods-MindValleyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyUITests/Pods-MindValleyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCBBF47017A651CC36DACE0 /* Pods-MindValleyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyTests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyTests/Pods-MindValleyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7369E0BADC09D39BE4D07C5 /* Pods-MindValley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValley.debug.xcconfig"; path = "Target Support Files/Pods-MindValley/Pods-MindValley.debug.xcconfig"; sourceTree = "<group>"; };
+		F705B5A6B0292AFB50C5D163 /* Pods-MindValleyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyTests.release.xcconfig"; path = "Target Support Files/Pods-MindValleyTests/Pods-MindValleyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0823E09EA945ECEA01F5FC4 /* Pods_MindValley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35397DF1AA25CEBD32E5493E /* Pods_MindValleyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A8C33DCF6C7D963A3E46BF /* Pods_MindValleyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +158,8 @@
 				44DA967B247D2C5C0040877B /* MindValleyTests */,
 				44DA9686247D2C5C0040877B /* MindValleyUITests */,
 				44DA9660247D2C5A0040877B /* Products */,
+				896A6147ABA8CFB787DAC8C8 /* Pods */,
+				579DBD90F631EEC7FFCDFD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +178,10 @@
 			children = (
 				44DA9662247D2C5A0040877B /* AppDelegate.swift */,
 				44DA9664247D2C5A0040877B /* SceneDelegate.swift */,
-				44DA9666247D2C5A0040877B /* ViewController.swift */,
-				44DA9668247D2C5A0040877B /* Main.storyboard */,
-				44DA966E247D2C5B0040877B /* Assets.xcassets */,
-				44DA9670247D2C5B0040877B /* LaunchScreen.storyboard */,
+				44DA9695247D2E310040877B /* Helper */,
+				44DA969F247D2E3C0040877B /* SupportFiles */,
+				44DA96C7247D2EB50040877B /* Home */,
+				44DA96D4247D2EB50040877B /* Resources */,
 				44DA9673247D2C5B0040877B /* Info.plist */,
 				44DA966B247D2C5A0040877B /* MindValley.xcdatamodeld */,
 			);
@@ -131,6 +206,218 @@
 			path = MindValleyUITests;
 			sourceTree = "<group>";
 		};
+		44DA9695247D2E310040877B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				44DA9696247D2E310040877B /* Extension */,
+				44DA969A247D2E310040877B /* Network.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		44DA9696247D2E310040877B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44DA9697247D2E310040877B /* ReactiveExtensiones.swift */,
+				44DA9698247D2E310040877B /* UIViewExtension.swift */,
+				44DA9699247D2E310040877B /* UIImageView+Load.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		44DA969F247D2E3C0040877B /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96A0247D2E3C0040877B /* MessageView */,
+				44DA96A3247D2E3C0040877B /* LoadingView */,
+				44DA96A8247D2E3C0040877B /* EpisodeCollectionViewCell */,
+				44DA96AB247D2E3C0040877B /* ChannelCollectionVCell */,
+				44DA96AE247D2E3C0040877B /* TrackTableViewCell */,
+				44DA96AF247D2E3C0040877B /* ChannelTableViewCell */,
+				44DA96B1247D2E3C0040877B /* SeriesCollectionViewCell */,
+				44DA96B4247D2E3C0040877B /* CategoryCollectionViewCell */,
+				44DA96B6247D2E3C0040877B /* Cell */,
+				44DA96B7247D2E3C0040877B /* AlbumCollectionViewCell */,
+				44DA96B8247D2E3C0040877B /* ChannelCollectionViewCell */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		44DA96A0247D2E3C0040877B /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96A1247D2E3C0040877B /* MessageView.xib */,
+				44DA96A2247D2E3C0040877B /* MessageView.swift */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		44DA96A3247D2E3C0040877B /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96A4247D2E3C0040877B /* AnimateloadingView.swift */,
+				44DA96A5247D2E3C0040877B /* LoadingView.xib */,
+				44DA96A6247D2E3C0040877B /* LoadingViewable.swift */,
+				44DA96A7247D2E3C0040877B /* loadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		44DA96A8247D2E3C0040877B /* EpisodeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96A9247D2E3C0040877B /* EpisodeCollectionViewCell.xib */,
+				44DA96AA247D2E3C0040877B /* EpisodeCollectionViewCell.swift */,
+			);
+			path = EpisodeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96AB247D2E3C0040877B /* ChannelCollectionVCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96AC247D2E3C0040877B /* ChannelCollectionViewCell.xib */,
+				44DA96AD247D2E3C0040877B /* ChannelCollectionViewCell.swift */,
+			);
+			path = ChannelCollectionVCell;
+			sourceTree = "<group>";
+		};
+		44DA96AE247D2E3C0040877B /* TrackTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TrackTableViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96AF247D2E3C0040877B /* ChannelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96B0247D2E3C0040877B /* ChannelTableViewCell.swift */,
+			);
+			path = ChannelTableViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96B1247D2E3C0040877B /* SeriesCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96B2247D2E3C0040877B /* SeriesCollectionViewCell.swift */,
+				44DA96B3247D2E3C0040877B /* SeriesCollectionViewCell.xib */,
+			);
+			path = SeriesCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96B4247D2E3C0040877B /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96B5247D2E3C0040877B /* CategoryCollectionViewCell.swift */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96B6247D2E3C0040877B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		44DA96B7247D2E3C0040877B /* AlbumCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AlbumCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96B8247D2E3C0040877B /* ChannelCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChannelCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		44DA96C7247D2EB50040877B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96C8247D2EB50040877B /* ViewModel */,
+				44DA96CC247D2EB50040877B /* Model */,
+				44DA96D0247D2EB50040877B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		44DA96C8247D2EB50040877B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96C9247D2EB50040877B /* ChannelViewModel.swift */,
+				44DA96CA247D2EB50040877B /* CategoryViewModel.swift */,
+				44DA96CB247D2EB50040877B /* EpisodeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44DA96CC247D2EB50040877B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96CD247D2EB50040877B /* Channel.swift */,
+				44DA96CE247D2EB50040877B /* Episode.swift */,
+				44DA96CF247D2EB50040877B /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44DA96D0247D2EB50040877B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96D1247D2EB50040877B /* Main.storyboard */,
+				44DA96D3247D2EB50040877B /* EpisodeVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44DA96D4247D2EB50040877B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96D5247D2EB50040877B /* Assets.xcassets */,
+				44DA96D6247D2EB50040877B /* LaunchScreen.storyboard */,
+				44DA96D8247D2EB50040877B /* fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44DA96D8247D2EB50040877B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				44DA96D9247D2EB50040877B /* Gilroy-Medium.ttf */,
+				44DA96DA247D2EB50040877B /* Gilroy-Regular.ttf */,
+				44DA96DB247D2EB50040877B /* Gilroy-ExtraBold.ttf */,
+				44DA96DC247D2EB50040877B /* Gilroy-SemiBold.ttf */,
+				44DA96DD247D2EB50040877B /* Gilroy-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		579DBD90F631EEC7FFCDFD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B963136CD52F21AA79B1AC /* Pods_MindValley.framework */,
+				6F1D761039A91FBE16C2CCE6 /* Pods_MindValleyTests.framework */,
+				7D69C8CF9D1C53CA8E294495 /* Pods_MindValleyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		896A6147ABA8CFB787DAC8C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7369E0BADC09D39BE4D07C5 /* Pods-MindValley.debug.xcconfig */,
+				40125E2C96959B93C41D1D36 /* Pods-MindValley.release.xcconfig */,
+				AFCBBF47017A651CC36DACE0 /* Pods-MindValleyTests.debug.xcconfig */,
+				F705B5A6B0292AFB50C5D163 /* Pods-MindValleyTests.release.xcconfig */,
+				989A9390FC905C3DD0F2D90A /* Pods-MindValleyUITests.debug.xcconfig */,
+				76DA7127D1AEEC521348AAAB /* Pods-MindValleyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +425,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DA968C247D2C5C0040877B /* Build configuration list for PBXNativeTarget "MindValley" */;
 			buildPhases = (
+				814A870B02FF7D68DCEFDFF7 /* [CP] Check Pods Manifest.lock */,
 				44DA965B247D2C5A0040877B /* Sources */,
 				44DA965C247D2C5A0040877B /* Frameworks */,
 				44DA965D247D2C5A0040877B /* Resources */,
+				8E000EDD979B2EA38435908B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +444,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DA968F247D2C5C0040877B /* Build configuration list for PBXNativeTarget "MindValleyTests" */;
 			buildPhases = (
+				684A83B83E53A31CDE0F0354 /* [CP] Check Pods Manifest.lock */,
 				44DA9674247D2C5C0040877B /* Sources */,
 				44DA9675247D2C5C0040877B /* Frameworks */,
 				44DA9676247D2C5C0040877B /* Resources */,
@@ -173,6 +463,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DA9692247D2C5C0040877B /* Build configuration list for PBXNativeTarget "MindValleyUITests" */;
 			buildPhases = (
+				5FE8F188982C79E3E22873B1 /* [CP] Check Pods Manifest.lock */,
 				44DA967F247D2C5C0040877B /* Sources */,
 				44DA9680247D2C5C0040877B /* Frameworks */,
 				44DA9681247D2C5C0040877B /* Resources */,
@@ -235,9 +526,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DA9672247D2C5B0040877B /* LaunchScreen.storyboard in Resources */,
-				44DA966F247D2C5B0040877B /* Assets.xcassets in Resources */,
-				44DA966A247D2C5A0040877B /* Main.storyboard in Resources */,
+				44DA96B9247D2E3C0040877B /* MessageView.xib in Resources */,
+				44DA96E8247D2EB60040877B /* Gilroy-Medium.ttf in Resources */,
+				44DA96E9247D2EB60040877B /* Gilroy-Regular.ttf in Resources */,
+				44DA96E4247D2EB60040877B /* Main.storyboard in Resources */,
+				44DA96E6247D2EB60040877B /* Assets.xcassets in Resources */,
+				44DA96BF247D2E3C0040877B /* EpisodeCollectionViewCell.xib in Resources */,
+				44DA96BC247D2E3C0040877B /* LoadingView.xib in Resources */,
+				44DA96EA247D2EB60040877B /* Gilroy-ExtraBold.ttf in Resources */,
+				44DA96C1247D2E3C0040877B /* ChannelCollectionViewCell.xib in Resources */,
+				44DA96E7247D2EB60040877B /* LaunchScreen.storyboard in Resources */,
+				44DA96EB247D2EB60040877B /* Gilroy-SemiBold.ttf in Resources */,
+				44DA96C5247D2E3C0040877B /* SeriesCollectionViewCell.xib in Resources */,
+				44DA96EC247D2EB60040877B /* Gilroy-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +558,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FE8F188982C79E3E22873B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValleyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684A83B83E53A31CDE0F0354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValleyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814A870B02FF7D68DCEFDFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValley-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E000EDD979B2EA38435908B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindValley/Pods-MindValley-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindValley/Pods-MindValley-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindValley/Pods-MindValley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44DA965B247D2C5A0040877B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DA96C6247D2E3C0040877B /* CategoryCollectionViewCell.swift in Sources */,
+				44DA96E5247D2EB60040877B /* EpisodeVC.swift in Sources */,
+				44DA96E1247D2EB60040877B /* Channel.swift in Sources */,
+				44DA969D247D2E310040877B /* UIImageView+Load.swift in Sources */,
+				44DA969C247D2E310040877B /* UIViewExtension.swift in Sources */,
+				44DA96DE247D2EB60040877B /* ChannelViewModel.swift in Sources */,
+				44DA96BE247D2E3C0040877B /* loadingView.swift in Sources */,
+				44DA96C3247D2E3C0040877B /* ChannelTableViewCell.swift in Sources */,
+				44DA969B247D2E310040877B /* ReactiveExtensiones.swift in Sources */,
+				44DA96E0247D2EB60040877B /* EpisodeViewModel.swift in Sources */,
+				44DA96BD247D2E3C0040877B /* LoadingViewable.swift in Sources */,
+				44DA96C2247D2E3C0040877B /* ChannelCollectionViewCell.swift in Sources */,
 				44DA966D247D2C5A0040877B /* MindValley.xcdatamodeld in Sources */,
-				44DA9667247D2C5A0040877B /* ViewController.swift in Sources */,
+				44DA96C0247D2E3C0040877B /* EpisodeCollectionViewCell.swift in Sources */,
+				44DA96C4247D2E3C0040877B /* SeriesCollectionViewCell.swift in Sources */,
+				44DA96BA247D2E3C0040877B /* MessageView.swift in Sources */,
 				44DA9663247D2C5A0040877B /* AppDelegate.swift in Sources */,
+				44DA96E2247D2EB60040877B /* Episode.swift in Sources */,
+				44DA96BB247D2E3C0040877B /* AnimateloadingView.swift in Sources */,
+				44DA969E247D2E310040877B /* Network.swift in Sources */,
+				44DA96DF247D2EB60040877B /* CategoryViewModel.swift in Sources */,
 				44DA9665247D2C5A0040877B /* SceneDelegate.swift in Sources */,
+				44DA96E3247D2EB60040877B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,18 +707,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		44DA9668247D2C5A0040877B /* Main.storyboard */ = {
+		44DA96D1247D2EB50040877B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				44DA9669247D2C5A0040877B /* Base */,
+				44DA96D2247D2EB50040877B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		44DA9670247D2C5B0040877B /* LaunchScreen.storyboard */ = {
+		44DA96D6247D2EB50040877B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				44DA9671247D2C5B0040877B /* Base */,
+				44DA96D7247D2EB50040877B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -436,6 +842,7 @@
 		};
 		44DA968D247D2C5C0040877B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7369E0BADC09D39BE4D07C5 /* Pods-MindValley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +860,7 @@
 		};
 		44DA968E247D2C5C0040877B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40125E2C96959B93C41D1D36 /* Pods-MindValley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +878,7 @@
 		};
 		44DA9690247D2C5C0040877B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCBBF47017A651CC36DACE0 /* Pods-MindValleyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +900,7 @@
 		};
 		44DA9691247D2C5C0040877B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F705B5A6B0292AFB50C5D163 /* Pods-MindValleyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +922,7 @@
 		};
 		44DA9693247D2C5C0040877B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989A9390FC905C3DD0F2D90A /* Pods-MindValleyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +942,7 @@
 		};
 		44DA9694247D2C5C0040877B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DA7127D1AEEC521348AAAB /* Pods-MindValleyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
