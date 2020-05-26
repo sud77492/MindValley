@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Kingfisher
+
 class EpisodeCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var episodeImage : UIImageView!
@@ -21,31 +23,11 @@ class EpisodeCollectionViewCell: UICollectionViewCell {
 
     }
     
-    /*var withBackView : Bool! {
-        didSet {
-            self.backViewGenrator()
-        }
-    }*/
-    /*private lazy var backView: UIImageView = {
-        let backView = UIImageView(frame: episodeImage.frame)
-        backView.translatesAutoresizingMaskIntoConstraints = false
-        self.contentView.addSubview(backView)
-        NSLayoutConstraint.activate([
-            backView.topAnchor.constraint(equalTo: episodeImage.topAnchor, constant: -10),
-            backView.leadingAnchor.constraint(equalTo: episodeImage.leadingAnchor),
-            backView.trailingAnchor.constraint(equalTo: episodeImage.trailingAnchor),
-            backView.bottomAnchor.constraint(equalTo: episodeImage.bottomAnchor)
-        ])
-        backView.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
-        backView.alpha = 0.5
-        contentView.bringSubviewToFront(episodeImage)
-        return backView
-    }()*/
-    
     public var episode: Episode! {
         didSet {
             self.episodeImage.layer.masksToBounds = true
-            self.episodeImage.loadImage(fromURL: episode.coverAsset.url)
+            let url = URL(string: self.episode.coverAsset.url)
+            self.episodeImage.kf.setImage(with: url)
             self.episodeTitle.text = episode.title
             self.channelTitle.text = episode.channel.title
         }

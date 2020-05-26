@@ -24,8 +24,13 @@ class ChannelCollectionViewCell: UICollectionViewCell {
     public var latestMedia: LatestMedia! {
         didSet {
             self.channelMediaTitle.text = latestMedia.title
-            self.channelMediaImage.loadImage(fromURL: latestMedia.coverAsset.url)
+            let url = URL(string: latestMedia.coverAsset.url)
+            self.channelMediaImage.kf.setImage(with: url)
         }
     }
 
+    
+    override func prepareForReuse() {
+        self.channelMediaImage.image = UIImage()
+    }
 }

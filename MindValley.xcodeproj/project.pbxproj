@@ -232,13 +232,9 @@
 				44DA96A3247D2E3C0040877B /* LoadingView */,
 				44DA96A8247D2E3C0040877B /* EpisodeCollectionViewCell */,
 				44DA96AB247D2E3C0040877B /* ChannelCollectionVCell */,
-				44DA96AE247D2E3C0040877B /* TrackTableViewCell */,
 				44DA96AF247D2E3C0040877B /* ChannelTableViewCell */,
 				44DA96B1247D2E3C0040877B /* SeriesCollectionViewCell */,
 				44DA96B4247D2E3C0040877B /* CategoryCollectionViewCell */,
-				44DA96B6247D2E3C0040877B /* Cell */,
-				44DA96B7247D2E3C0040877B /* AlbumCollectionViewCell */,
-				44DA96B8247D2E3C0040877B /* ChannelCollectionViewCell */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -281,13 +277,6 @@
 			path = ChannelCollectionVCell;
 			sourceTree = "<group>";
 		};
-		44DA96AE247D2E3C0040877B /* TrackTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TrackTableViewCell;
-			sourceTree = "<group>";
-		};
 		44DA96AF247D2E3C0040877B /* ChannelTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,27 +300,6 @@
 				44DA96B5247D2E3C0040877B /* CategoryCollectionViewCell.swift */,
 			);
 			path = CategoryCollectionViewCell;
-			sourceTree = "<group>";
-		};
-		44DA96B6247D2E3C0040877B /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		44DA96B7247D2E3C0040877B /* AlbumCollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AlbumCollectionViewCell;
-			sourceTree = "<group>";
-		};
-		44DA96B8247D2E3C0040877B /* ChannelCollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ChannelCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		44DA96C7247D2EB50040877B /* Home */ = {
